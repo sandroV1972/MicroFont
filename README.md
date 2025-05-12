@@ -2,23 +2,34 @@
   <img src="assets/microfont_logo.png" alt="MicroFont Logo" width="200"/>
 </p>
 
-# MicroFont
+<h1 align="center">MicroFont</h1>
 
-**MicroFont** è una libreria modulare per Arduino/ESP32 che permette la gestione unificata dei font bitmap per display grafici, come `U8g2`.
+<p align="center">
+  Libreria modulare per la gestione avanzata di font in ambienti embedded.
+</p>
 
-## Struttura
+<p align="center">
+  <img src="https://img.shields.io/badge/license-GPLv3-blue" alt="License">
+  <img src="https://img.shields.io/badge/platform-ESP32-orange" alt="Platform">
+  <img src="https://img.shields.io/badge/framework-Arduino-green" alt="Framework">
+</p>
 
-- `font_library_core.h` – gestione base dei font (nome, dimensione, puntatore)
-- `font_u8g2_adapter.h` – adattatore per U8g2
-- `examples/test_fonts_u8g2.ino` – esempio di utilizzo
+---
 
-## Utilizzo
+## ✨ Caratteristiche
 
-```cpp
-FontRegistryU8g2 fonts;
-u8g2.setFont(fonts.getFont("Arial", 10));
-```
+- ✅ Font identificabili per nome e dimensione (`"Arial", 12`)
+- ✅ Supporto a interfacce grafiche modulari (U8g2, Adafruit GFX, ecc.)
+- ✅ Pronto per essere esteso ad altri backend
+- ✅ Separazione tra core dei font e adattatori display
+- ✅ Utilizzabile anche in ambienti non-Arduino
+- ✅ Compatibile con ESP32 e altri microcontrollori
 
-## Autore
+---
 
-Alessandro Valenti – 2025
+## 📦 Installazione
+
+Clona il repository all'interno della cartella `libraries` di Arduino:
+
+```bash
+git clone https://github.com/sandroV1972/MicroFont.git
