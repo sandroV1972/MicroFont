@@ -1,6 +1,10 @@
-# FontLib
+<p align="center">
+  <img src="assets/logo.svg" alt="MicroFont Logo" width="200"/>
+</p>
 
-**FontLib** è una libreria modulare per Arduino/ESP32 che permette la gestione unificata dei font bitmap per display grafici, come `U8g2`.
+# MicroFont
+
+**MicroFont** è una libreria modulare per Arduino/ESP32 che permette la gestione unificata dei font bitmap per display grafici, come `U8g2`.
 
 ## Struttura
 
