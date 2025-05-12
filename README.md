@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/microfont_logo.svg" alt="MicroFont Logo" width="200"/>
+  <img src="assets/microfont_logo.png" alt="MicroFont Logo" width="200"/>
 </p>
 
 # MicroFont
