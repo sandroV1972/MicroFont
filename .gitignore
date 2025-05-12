@@ -1,0 +1,22 @@
+# Arduino and ESP32 build files
+*.elf
+*.bin
+*.hex
+*.d
+*.dep
+*.o
+*.a
+*.map
+*.s
+
+# MacOS
+.DS_Store
+
+# VSCode / PlatformIO
+.vscode/
+.pio/
+*.code-workspace
+
+# Arduino IDE
+*.ino.cpp
+build/
